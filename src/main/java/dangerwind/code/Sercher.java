@@ -42,7 +42,7 @@ public class Sercher {
         return first.toString();
     }
 
-    public static String searchBrMain(String checkingString) {
+    public static String SearchBrMain(String checkingString) {
         char[] lettersToCheck = checkingString.toCharArray();
         StringBuilder strToCalculate = new StringBuilder();
         boolean flagStart = false;

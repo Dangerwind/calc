@@ -17,9 +17,14 @@ dependencies {
     testImplementation("org.junit.jupiter:junit-jupiter")
 
     // https://mvnrepository.com/artifact/org.projectlombok/lombok
-    //implementation("org.projectlombok:lombok:1.18.38")
+    compileOnly("org.projectlombok:lombok:1.18.30")
+    annotationProcessor("org.projectlombok:lombok:1.18.30")
 }
 
 tasks.test {
     useJUnitPlatform()
+}
+
+tasks.getByName("run", JavaExec::class) {
+    standardInput = System.`in`
 }

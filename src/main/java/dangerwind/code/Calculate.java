@@ -6,8 +6,7 @@ import static dangerwind.code.Checker.*;
 import static dangerwind.code.Repository.LogAdd;
 import static dangerwind.code.Repository.LogAddP;
 import static dangerwind.code.Repository.LogAddP;
-import static dangerwind.code.Sercher.SerchMain;
-import static dangerwind.code.Sercher.searchBrMain;
+import static dangerwind.code.Sercher.*;
 
 public class Calculate {
     public static String SymplCalc(String inputS) {
@@ -91,7 +90,7 @@ public class Calculate {
         while(ifCharnge) {
             ifCharnge = false;
             formStr = Repository.getMainString();
-            var eqq = searchBrMain(formStr);
+            var eqq = SearchBrMain(formStr);
             var origEqq = eqq;
             if (!eqq.isEmpty()) {
                 LogAdd("Вычисяем скобки (" + eqq + ")");

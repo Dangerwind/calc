@@ -35,7 +35,7 @@ public class AppTest {
     @Test
     public void testSimplCalc() {
         var str = "4/2-2+5-8";
-        assertEquals("-3.0", SymplCalc(str));
+        assertEquals("-3.0", symplCalc(str));
     }
 
 
