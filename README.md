@@ -12,7 +12,7 @@ make run
 
 <hr>
 
-![](https://github.com/Dangerwind/calc/blob/main/img/Screenshot 2025-04-12 at 21.01.34.png)
+![](https://github.com/Dangerwind/calc/blob/90344c87ed7174294a301e1259205f8d516603a1/img/math1.png)
 
-![](https://github.com/Dangerwind/calc/blob/main/img/Screenshot 2025-04-12 at 21.01.56.png)
+![](https://github.com/Dangerwind/calc/blob/90344c87ed7174294a301e1259205f8d516603a1/img/math2.png)
 
